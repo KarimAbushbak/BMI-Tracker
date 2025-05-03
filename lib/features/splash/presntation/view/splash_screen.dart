@@ -1,7 +1,9 @@
 import 'package:bmi_tracker/core/resources/manager_colors.dart';
 import 'package:bmi_tracker/core/resources/manager_font_sizes.dart';
 import 'package:bmi_tracker/core/resources/manager_font_weight.dart';
+import 'package:bmi_tracker/core/resources/manager_fonts.dart';
 import 'package:bmi_tracker/core/resources/manager_height.dart';
+import 'package:bmi_tracker/core/resources/manager_strings.dart';
 import 'package:bmi_tracker/core/resources/manager_width.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -21,9 +23,10 @@ class SplashScreen extends StatelessWidget {
             backgroundColor: ManagerColors.primaryColor,
                 body: Center(
                   child: Text(
-                    'BMI Tracker',
+                    ManagerStrings.appName,
                     style: TextStyle(
                       fontSize: ManagerFontSizes.s40,
+                      fontFamily: ManagerFontFamily.appFont,
                       fontWeight: ManagerFontWeight.w800,
                       color: ManagerColors.white
                     ),

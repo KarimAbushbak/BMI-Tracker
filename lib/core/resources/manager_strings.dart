@@ -1,5 +1,5 @@
 class ManagerStrings {
-  static const String appName = 'اذكار';
+  static const String appName = 'BMI Tracker';
   static const String aboutScreen = 'About Screen';
   static const String notFoundRoute = 'Route Not Found';
   static const String signUp = 'Sign Up';

@@ -1,6 +1,8 @@
+import 'package:bmi_tracker/features/bmi_calculator/presntation/view/bmi_calculator.dart';
 import 'package:flutter/material.dart';
 
 import '../config/dependancy_injection.dart';
+import '../features/main_screen/presntation/view/main_screen.dart';
 import '../features/outboarding/presntation/view/outboarding_view.dart';
 import '../features/splash/presntation/view/splash_screen.dart';
 
@@ -20,6 +22,8 @@ class Routes {
   static const String brandView = '/brandView';
   static const String questionPage = '/questionPage';
   static const String resultPage = '/resultPage';
+  static const String mainScreen = '/mainScreen';
+  static const String bmiCalculator = '/bmiCalculator';
 }
 
 class RouteGenerator {
@@ -28,11 +32,12 @@ class RouteGenerator {
       case Routes.splashScreen:
         initSplash();
         return MaterialPageRoute(builder: (_) =>   SplashScreen());
-      case Routes.outBoarding:
-        return MaterialPageRoute(builder: (_) => const OutBoardingView());
-      // case Routes.loginView:
-      //   initAuth();
-      //   return MaterialPageRoute(builder: (_) => LoginView());
+      // case Routes.outBoarding:
+      //   return MaterialPageRoute(builder: (_) => const OutBoardingView());
+      case Routes.mainScreen:
+        return MaterialPageRoute(builder: (_) => MainScreen());
+      case Routes.bmiCalculator:
+        return MaterialPageRoute(builder: (_) => BmiCalculator());
       // case Routes.registerView:
       //   initAuth();
       //   return MaterialPageRoute(builder: (_) => RegisterView());

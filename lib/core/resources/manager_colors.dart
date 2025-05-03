@@ -5,7 +5,9 @@ class ManagerColors {
   static const Color primaryColor = Color(0xff6C63FF);
   static const Color questionPageAppbar = Color(0xff0F469A);
   static const Color inCircle = Color(0xff0F469A);
-  static const Color outCircle = Color(0xff407DD8);
+  static const Color mainButtonScreen = Color(0xffF4F3FF);
+  static const Color mainButtonScreenText = Color(0xff081854);
+  static const Color mainScreenSubTextColor = Color(0xffC6C3F9);
 
   static Color secondaryColor = Colors.brown;
   static Color brown200 = Colors.brown.shade300;

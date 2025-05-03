@@ -1,3 +1,3 @@
 class ManagerFontFamily {
-  static const String appFont = 'Tajawal';
+  static const String appFont = 'Inter';
 }
