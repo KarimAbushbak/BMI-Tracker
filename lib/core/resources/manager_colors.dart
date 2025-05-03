@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class ManagerColors {
-  static const Color primaryColor = Color(0xff0F469A);
+  static const Color primaryColor = Color(0xff6C63FF);
   static const Color questionPageAppbar = Color(0xff0F469A);
   static const Color inCircle = Color(0xff0F469A);
   static const Color outCircle = Color(0xff407DD8);

@@ -51,6 +51,7 @@ class ManagerHeight {
   static double h200 = SizeUtil.setHeight(200);
   static double h220 = SizeUtil.setHeight(220);
   static double h225 = SizeUtil.setHeight(225);
+  static double h250 = SizeUtil.setHeight(250);
   static double h313 = SizeUtil.setHeight(313);
   static double h320 = SizeUtil.setHeight(320);
   static double h303 = SizeUtil.setHeight(303);

@@ -7,11 +7,11 @@ class SplashController extends GetxController {
   void onInit() {
     super.onInit();
 
-    Future.delayed(
-      Duration(seconds: Constants.splashTime), // example: 3 seconds
-          () {
-        Get.offAllNamed(Routes.outBoarding); // or any route you want
-      },
-    );
+    // Future.delayed(
+    //   Duration(seconds: Constants.splashTime), // example: 3 seconds
+    //       () {
+    //     Get.offAllNamed(Routes.outBoarding); // or any route you want
+    //   },
+    // );
   }
 }
