@@ -8,9 +8,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_switch/flutter_switch.dart';
+import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
+
+import '../../../../core/routes.dart';
 
 class BmiCalculator extends StatelessWidget {
   const BmiCalculator({super.key});
@@ -274,7 +277,8 @@ class BmiCalculator extends StatelessWidget {
             SizedBox(height: ManagerHeight.h30,),
             Obx(() => ElevatedButton(
               onPressed: () {
-                // Get.toNamed(Routes.bmiCalculator);
+
+                controller.calculateBmi();
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: controller.isMale.value

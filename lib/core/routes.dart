@@ -1,9 +1,9 @@
 import 'package:bmi_tracker/features/bmi_calculator/presntation/view/bmi_calculator.dart';
+import 'package:bmi_tracker/features/bmi_result/presntation/view/bmi_result_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../config/dependancy_injection.dart';
 import '../features/main_screen/presntation/view/main_screen.dart';
-import '../features/outboarding/presntation/view/outboarding_view.dart';
 import '../features/splash/presntation/view/splash_screen.dart';
 
 
@@ -24,6 +24,7 @@ class Routes {
   static const String resultPage = '/resultPage';
   static const String mainScreen = '/mainScreen';
   static const String bmiCalculator = '/bmiCalculator';
+  static const String bmiResultScreen = '/bmiResultScreen';
 }
 
 class RouteGenerator {
@@ -39,6 +40,9 @@ class RouteGenerator {
       case Routes.bmiCalculator:
         initBmi();
         return MaterialPageRoute(builder: (_) => BmiCalculator());
+      case Routes.bmiResultScreen:
+        initBmi();
+        return MaterialPageRoute(builder: (_) => BmiResultScreen());
       // case Routes.registerView:
       //   initAuth();
       //   return MaterialPageRoute(builder: (_) => RegisterView());
