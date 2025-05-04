@@ -1,4 +1,5 @@
 
+import 'package:bmi_tracker/features/bmi_calculator/presntation/controller/bmi_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -15,10 +16,10 @@ initSplash() {
 disposeSplash() {
   Get.delete<SplashController>();
 }
-// initAuth() {
-//   disposeSplash();
-//
-//   Get.put<AuthController>(AuthController());
+initBmi() {
+  disposeSplash();
+
+  Get.put<BmiController>(BmiController());
 // }
 //
 // disposeAuth() {
@@ -31,4 +32,5 @@ disposeSplash() {
 // }
 // initLocale(){
 //   Get.put<LocaleNotifierController>(LocaleNotifierController());
-// }}
+// }}}
+}

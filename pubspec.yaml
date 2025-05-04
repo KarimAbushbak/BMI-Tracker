@@ -38,6 +38,7 @@ dependencies:
   flutter_screenutil: ^5.9.0
   get: ^4.6.6
   shared_preferences: ^2.2.3
+  flutter_switch: ^0.3.2
 
 
 dev_dependencies:

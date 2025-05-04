@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class ManagerColors {
   static const Color primaryColor = Color(0xff6C63FF);
   static const Color questionPageAppbar = Color(0xff0F469A);
-  static const Color inCircle = Color(0xff0F469A);
+  static const Color bmiCalculatorBackground = Color(0xffF4F3FF);
   static const Color mainButtonScreen = Color(0xffF4F3FF);
   static const Color mainButtonScreenText = Color(0xff081854);
   static const Color mainScreenSubTextColor = Color(0xffC6C3F9);

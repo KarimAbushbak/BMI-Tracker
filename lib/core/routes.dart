@@ -37,6 +37,7 @@ class RouteGenerator {
       case Routes.mainScreen:
         return MaterialPageRoute(builder: (_) => MainScreen());
       case Routes.bmiCalculator:
+        initBmi();
         return MaterialPageRoute(builder: (_) => BmiCalculator());
       // case Routes.registerView:
       //   initAuth();
